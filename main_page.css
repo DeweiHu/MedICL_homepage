@@ -1,0 +1,491 @@
+body{
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 0;
+  background-color: #ededed;
+}
+
+nav{
+  width: 100%;
+  height: 150px;
+  overflow: auto;
+  background: #1c1c1c;
+}
+
+
+ul{
+  margin-top: 85px;
+  margin-left: 350px;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  width: 100px;
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+
+/* Change the color of links on hover */
+li a:hover {
+  background-color: #cfae70;
+  color: black;
+  font-weight: 1000;
+}
+
+.logo img{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 150px;
+}
+
+li i {
+  color: white;
+}
+
+.welcome{
+  font-weight: 1000;
+  font-size: 300;
+  margin-left: 350px;
+  font-family: Arial;
+}
+
+.VU img{
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  height: 130px;
+}
+
+.panel1-wrapper {
+  width: 600px;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.panel1 {
+    border: 4px solid #cfae70;
+    border-top: 0;
+    padding: 1em;
+    margin: 1em 0 0;
+}
+
+
+.labnews {
+    height: 280px;
+    width: 600px;
+    margin-top: 20px;
+    background-color: #cfae7017;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#c0c0c045 .1em, transparent .1em);
+    background-size: 100% 1.6em;
+    overflow-y: auto;
+}
+
+.panel2-wrapper {
+  width: 1000px;
+  height: 1000px;
+  overflow: hidden;
+}
+
+.title{
+  padding-left: 0.2em;
+  padding-right: 0.4em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: bradley hand;
+}
+.labnews p{
+  font-size: 1.0rem;
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;;
+  padding-left: 0.5em;
+}
+.labnews span{
+  font-weight: bold;
+}
+
+.panel2 {
+/*    border: 4px solid #cfae70;
+    border-top: 0; */
+    padding: 1em; 
+    margin: 1em 0 0;
+}
+
+.panel-header {
+    position: relative;
+    top: -1.5em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.panel-header:before,
+.panel-header:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background: #000;
+    top: 50%;
+}
+.panel-header:before {
+    width: 100px;
+    left: -100px;
+}
+.panel-header:after {
+    width: 1000px;
+    right: -1000px;
+}
+.panel1-content {
+    margin-top: -0.5em; 
+}
+
+
+.two-col {
+    overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .panel1-wrapper{
+    width: 36%;
+}
+.two-col .panel2-wrapper {
+    width: 62%;
+}
+
+.two-col .panel1-wrapper {
+    float: left;
+}
+
+.two-col .panel2-wrapper {
+    float: right;
+}
+
+.two-col label {
+    display: block;
+}
+
+
+.brain-mesh{
+  position: relative;
+  height: 800px;
+  width: 900px;
+}
+
+.mesh{
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 650px;
+}
+
+.big1{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 136px;
+  left: 420px;
+}
+
+.big2{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 195px;
+  left: 760px;
+}
+
+.big4{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 368px;
+  left: 30px;
+}
+
+
+.description p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 13;
+}
+.description h3{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.description ul {
+    list-style: none;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 13px;
+    width: 250px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 25px;
+}
+.description ul li.new:before {
+    color: #f00;
+    content: "•";
+    padding-right: 0;
+    position: relative;
+    left: -3px;
+    margin-left: -12px;
+}
+.description ul li {
+    padding: 5px 9px 5px 0;
+    border: 0;
+    
+}
+.description ul li.border{
+    border-bottom: 1px solid gray;
+    padding: 0;
+    margin: 0;
+    width: 212px;
+    margin-left: -12px;
+}
+.description ul li span {
+    font-weight: bold;
+}
+.description .pub{
+    padding-top: 2px;
+    font-size: 9px;
+}
+
+
+.dgda-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: 240px;
+  left: 315px;
+  z-index: 1;
+  overflow-y: auto;
+}
+.dgda-project:hover .description{
+  visibility: visible;
+}
+.dgda{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 240px;
+  left: 150px;
+}
+.dgda:hover{
+  transform: scale(1.2);
+}
+
+
+.segmentation{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 336px;
+  left: 303px;
+}
+.segmentation:hover{
+  transform: scale(1.2);
+}
+.segmentation-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: 336px;
+  left: 468px;
+  z-index: 1;
+  overflow-y: auto;
+}
+.segmentation-project:hover .description{
+  visibility: visible;
+}
+
+
+.surface{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 447px;
+  left: 620px;
+}
+.surface:hover{
+  transform: scale(1.2);
+}
+.surface-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: 447px;
+  left: 300px;
+  z-index: 1;
+  overflow-y: auto;
+}
+.surface-project:hover .description{
+  visibility: visible;
+}
+
+
+.diagnosis{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 300px;
+  left: 500px;
+}
+
+.diagnosis:hover{
+  transform: scale(1.2);
+}
+
+.diagnosis-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: 300px;
+  left: 180px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.diagnosis-project:hover .description{
+  visibility: visible;
+}
+
+.denoise{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: -7px;
+  left: 300px;
+}
+
+.denoise:hover{
+  transform: scale(1.2);
+}
+
+.denoise-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: -7px;
+  left: 465px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.denoise-project:hover .description{
+  visibility: visible;
+}
+
+.small1{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 280px;
+  left: 0px;
+}
+
+.small2{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 98px;
+  left: 110px;
+}
+
+.small3{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 168px;
+  left: 280px;
+}
+
+.small4{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 37px;
+  left: 600px;
+}
+
+.small5{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 117px;
+  left: 725px;
+}
+
+.small6{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 225px;
+  left: 630px;
+}
+
+.small7{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 395px;
+  left: 798px;
+}
+
+.small8{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 514px;
+  left: 195px;
+}
+
+.small9{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 550px;
+  left: 316px;
+}
+
+.small10{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 502px;
+  left: 475px;
+}
+
+.small11{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 668px;
+  left: 590px;
+}
