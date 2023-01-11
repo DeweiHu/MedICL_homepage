@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:title" content="MedICL" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="imgs/logo.png" />
+	<link rel="icon" href="imgs/brain-2006333-1697487.ico">
+	<title>MedICL</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Home.css">
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+</head>
+<body>
+	<div class="logo"><img src="imgs/logo.png"/></div>
+
+	<nav>
+		<ul>
+			<li><a href="Home.html" id="Home">Home</a></li>
+			<li><a href="#Research" id="Research">Research</a></li>
+			<li><a href="#Team" id="Team">Team</a></li>
+			<li><a href="#Publications" id="Publications">Publications</a></li>
+			<li><a href="Contact.html" id="Contact">Contact</a></li>
+			<li><a href="#Search"> <i class="fa fa-search"></i></a></li>
+		</ul>
+	</nav>
+
+	<div class="VU"><img src="imgs/VU.png"/></div>
+
+   <div>
+   		<h2 class="welcome"> Welcome to <span style="color:#cfae70">Med</span>ical <span style="color:#cfae70">I</span>mage <span style="color:#cfae70">C</span>omputing <span style="color:#cfae70">L</span>ab </h2>
+   </div>
+
+	<div class="two-col">
+    	<div class="panel1-wrapper">
+  			<div class="panel1">
+	    		<span class="panel-header">MISSION</span>
+	    		<p class="panel1-content">Research in MedICL is directed towards the development of novel methodology for quantitative medical image analysis, with focus on neuroimaging, obstrtric imaging and ophthalmology applications. With the help of the vast amount of data and boosting computation power, artifitial intelligence has achieved remarkable performance in almost all the image analysis tasks. Our goal is to push the boundary forward so that the algorithms can provide better aid for the real clinical procedure. <br>
+	    		We are in the <a href="https://engineering.vanderbilt.edu/cs/" style="text-decoration: none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'"><span style="color: #cfae70;">Department of Computer Science</span></a> and <a href="https://engineering.vanderbilt.edu/ece/" style="text-decoration: none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'"><span style="color: #cfae70;">Department of Electrical and Computer Engineering</span></a>. We are also affiliated with <a href="https://www.vanderbilt.edu/vise/" style="text-decoration: none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'"><span style="color: #cfae70;">Vanderbilt Institute for Surgery and Engineering (VISE)</span></a>. Therefore, we have great opportunity to collaborate with researchers with strong biomedical and clinical background. For more details of our work, please visit <span style="color: #cfae70;">here</span>.</p>
+    		</div>
+
+			<div class="labnews">
+				<span class="title">NEWS</span>
+				<p>12/22. VISE symposium.</p>
+				<p>10/22. 5 papers accepted by <span>SPIE 2023</span>.</p>
+				<p>08/22. 1 paper accepted by <span>MLCN 2022</span>.</p>
+				<p>06/22. 1 paper accepted by <span>MICCAI 2022</span>.</p>
+				<p>03/22. 1 paper accepted by <span>MIDL 2022</span>.</p>
+				<p>02/22. 3 papers presented at <span>SPIE 2022</span>.</p>
+			</div>
+    	</div>
+
+		<div class="panel2-wrapper">
+  			<div class="panel2"><span class="panel-header">RESEARCH PROJECTS</span>
+  				<div class="brain-mesh">
+  					<img class="mesh" src="imgs/brain_mesh/mesh_2.png" alt="mesh"/>
+  					<img class="stitch" src="imgs/brain_mesh/bighexagon.svg" alt="bighex">
+  					<img class="harmonize" src="imgs/brain_mesh/bighexagon.svg" alt="bighex">
+  					<img class="synthetic" src="imgs/brain_mesh/bighexagon.svg" alt="bighex">
+
+  					<div class="multimodality-project">
+  						<img class="multimodality" src="imgs/brain_mesh/multimod.png" alt="multimod">
+  						<div class="description">
+  							<h3>Multi-modality Approach</h3>
+  							<p>The MRI data usually have multiple modalities (e.g. T1, T2, FLAIR) that serves for different purposes. Including diverse modalities to train the deep model is experimentally benefitial. We present multi-modality deep learning approaches for brain MRI analysis.</p>
+  							<ul>
+  								<li class="new">
+							    <span>MS segmentation</span>
+							    <div class="pub">MICCAI 2022</div>
+							    </li>
+							    <li class="border"></li>
+  							</ul>
+  						</div>
+  					</div>
+
+  					<div class="inpaint-project">
+  						<img class="inpaint" src="imgs/brain_mesh/inpaint.gif" alt="inpaint">
+  						<div class="description">
+  							<h3>Lesion Inpainting</h3>
+  							<p>Inpainting lesions is an important preprocessing task for algorithms analyzing brain MRIs of multiple sclerosis (MS) patients, such as tissue segmentation and cortical surface reconstruction. We propose new deep learning approaches for this task. </p>
+  							<ul>
+  								<li class="new">
+							    <span>MS lesion</span>
+							    <div class="pub">MLMI 2020</div>
+							    </li>
+							    <li class="border"></li>
+  							</ul>
+  						</div>
+  					</div>
+
+  					<div class="dgda-project">
+  						<img class="dgda" src="imgs/brain_mesh/dgda.png" alt="DGDA">
+  						<div class="description">
+  							<h3>Domain Generalization & Adaptation</h3>
+  							<p>To tackle the domain shift of data acquired from different sites, we proposed DG and test-time adaptation methods that enable the deep models to work on unseen domains.</p>
+  							<ul>
+  								<li class="new">
+							    <span>domain generalization</span>
+							    <div class="pub">MIDL 2022, SPIE 2023</div>
+							    </li>
+							    <li class="border"></li>
+
+							    <li class="new">
+							    <span>domain adaptation</span>
+							    <div class="pub">MLCN 2022</div>
+							    </li>
+							    <li class="border"></li>
+  							</ul>
+  						</div>
+  					</div>
+  					<div class="segmentation-project">
+  						<img class="segmentation" src="imgs/brain_mesh/segmentation.png" alt="Seg">
+  						<div class="description">
+  							<h3>Semantic Segmentation</h3>
+  							<p>Segmentation is a very common task that helps the clinical practitioners with diagnosis and surgery. We presented segmentation algorithms that are suitable for different organs/tissue.</p>
+  							<ul>
+  								<li class="new">
+							    <span>subcortical</span>
+							    <div class="pub">MLCN 2020, SPIE 2021, ISBI 2022</div>
+							    </li>
+							    <li class="border"></li>
+							    
+							    <li class="new">
+							    <span>multiple sclerosis</span>
+							    <div class="pub">MICCAI 2019, SPIE 2023</div>
+							    </li>
+							    <li class="border"></li>
+							    
+							    <li class="new">
+							    <span>retinal vessel</span>
+							    <div class="pub">MICCAI 2021</div>
+							    </li>
+							    <li class="border"></li>
+
+							    <li class="new">
+							    <span>kidney stones</span>
+							    <div class="pub">SPIE 2022</div>
+							    </li>
+							    <li class="border"></li>
+  							</ul>
+  						</div>
+  					</div>
+
+  					<div class="surface-project">
+  						<img class="surface" src="imgs/brain_mesh/atrophy.png" alt="surface">
+  						<div class="description">
+  							<h3>Surface-based Analysis</h3>
+  							<p>Surface-based methods are more robust than their volumetric counterparts since they are not sensitive to noise and topological defects. We conducted surface-based approaches for cortical thickness measurement and cortical segmentation.</p>
+  							<ul>
+  								<li class="new">
+							    <span>cortical thickness measurement</span>
+							    <div class="pub">SPIE 2021, Frontiers in Neuroimaging 2022</div>
+							    </li>
+							    <li class="border"></li>
+							    
+							    <li class="new">
+							    <span>cortical segmentation</span>
+							    </li>
+							    <li class="border"></li>
+  							</ul>
+  						</div>
+  					</div>
+
+  					<div class="diagnosis-project">
+  						<img class="diagnosis" src="imgs/brain_mesh/diagnosis.png" alt="diagnosis">
+  						<div class="description">
+  							<h3>Computer Aided Diagnosis</h3>
+  							<p>The development of machine learning algorithms has great potential to enable early diagnosis of many diseases. We proposed patch-based grading method to detect disease from brain MRI.</p>
+ 							<ul>
+  								<li class="new">
+							    <span>Parkinson's disease</span>
+							    <div class="pub">Human Brain Mapping 2021</div>
+							    </li>
+							    <li class="border"></li>
+							    
+							    <li class="new">
+							    <span>Alzheimer's disease</span>
+							    <div class="pub">MedIA 2020</div>
+							    </li>
+							    <li class="border"></li>
+
+							    <li class="new">
+							    <span>Huntington's disease</span>
+							    <div class="pub">ISBI 2020, MICCAI 2020</div>
+							    </li>
+							    <li class="border"></li>
+  							</ul>
+  						</div>
+  					</div>
+
+  					<div class="denoise-project">
+  						<img class="denoise" src="imgs/brain_mesh/denoise.gif" alt="denoise">
+  						<div class="description">
+  							<h3>Image Denoising</h3>
+  							<p>Due to the imaging technique, some modalities (e.g., OCT, ultrasound) suffer from high noise that can degrade the visibility of important anatomy. We leverage the generative models (e.g., GAN, DDPM) for image denoising.</p>
+  							<ul>
+  								<li class="new">
+							    <span>retinal OCT</span>
+							    <div class="pub">OMIA 2020, SPIE 2022</div>
+							    </li>
+							    <li class="border"></li>
+							    
+							    <li class="new">
+							    <span>saphenous nerve ultrasound image</span>
+							    </li>
+							    <li class="border"></li>
+
+							    <li class="border"></li>
+  							</ul>
+  						</div>
+  					</div>
+
+  					<img class="small1" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small3" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small5" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small6" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small7" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small8" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small9" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small10" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+  					<img class="small11" src="imgs/brain_mesh/smallhexagon.svg" alt="smallhex">
+
+  				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
