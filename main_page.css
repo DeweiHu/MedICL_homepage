@@ -186,30 +186,6 @@ li i {
   height: 650px;
 }
 
-.big1{
-  position: absolute;
-  height: 165px;
-  width: 146px;
-  top: 136px;
-  left: 420px;
-}
-
-.big2{
-  position: absolute;
-  height: 165px;
-  width: 146px;
-  top: 195px;
-  left: 760px;
-}
-
-.big4{
-  position: absolute;
-  height: 165px;
-  width: 146px;
-  top: 368px;
-  left: 30px;
-}
-
 
 .description p{
   margin-left: 10px;
@@ -290,7 +266,7 @@ li i {
   position: absolute;
   height: 165px;
   width: 146px;
-  top: 336px;
+  top: 338px;
   left: 303px;
 }
 .segmentation:hover{
@@ -304,7 +280,7 @@ li i {
   color: white;
   font-family: optima, sans-serif;
   position: absolute;
-  top: 336px;
+  top: 338px;
   left: 468px;
   z-index: 1;
   overflow-y: auto;
@@ -318,8 +294,8 @@ li i {
   position: absolute;
   height: 165px;
   width: 146px;
-  top: 447px;
-  left: 620px;
+  top: 437px;
+  left: 637px;
 }
 .surface:hover{
   transform: scale(1.2);
@@ -332,8 +308,8 @@ li i {
   color: white;
   font-family: optima, sans-serif;
   position: absolute;
-  top: 447px;
-  left: 300px;
+  top: 437px;
+  left: 317px;
   z-index: 1;
   overflow-y: auto;
 }
@@ -376,7 +352,7 @@ li i {
   position: absolute;
   height: 165px;
   width: 146px;
-  top: -7px;
+  top: -20px;
   left: 300px;
 }
 
@@ -392,7 +368,7 @@ li i {
   color: white;
   font-family: optima, sans-serif;
   position: absolute;
-  top: -7px;
+  top: -20px;
   left: 465px;
   z-index: 1;
   overflow-y: auto;
@@ -402,60 +378,110 @@ li i {
   visibility: visible;
 }
 
+
+.inpaint{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 145px;
+  left: 375px;
+}
+
+.inpaint:hover{
+  transform: scale(1.2);
+}
+
+.inpaint-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: 145px;
+  left: 540px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.inpaint-project:hover .description{
+  visibility: visible;
+}
+
+
+.stitch{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 175px;
+  left: 760px;
+}
+
+.harmonize{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 368px;
+  left: 30px;
+}
+
+.multimodality{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: 52px;
+  left: 76px;
+}
+
+.synthetic{
+  position: absolute;
+  height: 165px;
+  width: 146px;
+  top: -7px;
+  left: 545px;
+}
+
 .small1{
   position: absolute;
   height: 50px;
   width: 50px;
-  top: 280px;
+  top: 255px;
   left: 0px;
 }
 
-.small2{
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  top: 98px;
-  left: 110px;
-}
 
 .small3{
   position: absolute;
   height: 50px;
   width: 50px;
-  top: 168px;
-  left: 280px;
+  top: 175px;
+  left: 283px;
 }
 
-.small4{
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  top: 37px;
-  left: 600px;
-}
 
 .small5{
   position: absolute;
   height: 50px;
   width: 50px;
-  top: 117px;
-  left: 725px;
+  top: 94px;
+  left: 726px;
 }
 
 .small6{
   position: absolute;
   height: 50px;
   width: 50px;
-  top: 225px;
-  left: 630px;
+  top: 207px;
+  left: 615px;
 }
 
 .small7{
   position: absolute;
   height: 50px;
   width: 50px;
-  top: 395px;
-  left: 798px;
+  top: 382px;
+  left: 782px;
 }
 
 .small8{
@@ -463,14 +489,14 @@ li i {
   height: 50px;
   width: 50px;
   top: 514px;
-  left: 195px;
+  left: 200px;
 }
 
 .small9{
   position: absolute;
   height: 50px;
   width: 50px;
-  top: 550px;
+  top: 557px;
   left: 316px;
 }
 
@@ -478,8 +504,8 @@ li i {
   position: absolute;
   height: 50px;
   width: 50px;
-  top: 502px;
-  left: 475px;
+  top: 488px;
+  left: 465px;
 }
 
 .small11{
@@ -487,5 +513,5 @@ li i {
   height: 50px;
   width: 50px;
   top: 668px;
-  left: 590px;
+  left: 595px;
 }
