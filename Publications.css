@@ -230,11 +230,11 @@ hr{
 .paperdir{
   background-color: #83899630;
   border: none;
-  width: 10%;
+  width: 7%;
   height: 80px;
   position: relative;
   top: -205px;
-  left: 1217px;
+  left: 1257px;
 }
 
 .paperdir:hover{
@@ -245,11 +245,11 @@ hr{
 .thickpaperdir{
   background-color: #83899630;
   border: none;
-  width: 10%;
+  width: 7%;
   height: 100px;
   position: relative;
   top: -249px;
-  left: 1217px;
+  left: 1257px;
 }
 
 .thickpaperdir:hover{
