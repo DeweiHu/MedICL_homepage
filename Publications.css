@@ -124,6 +124,7 @@ hr{
   height: 80px;
   margin-left: 75px;
   margin-top: 10px;
+  position: relative;
 }
 
 .jourblock{
@@ -133,6 +134,7 @@ hr{
   height: 80px;
   margin-left: 75px;
   margin-top: 10px;
+  position: relative;
 }
 
 .thickconfblock{
@@ -142,6 +144,7 @@ hr{
   height: 100px;
   margin-left: 75px;
   margin-top: 10px;
+  position: relative;
 }
 
 .thickjourblock{
@@ -151,13 +154,14 @@ hr{
   height: 100px;
   margin-left: 75px;
   margin-top: 10px;
+  position: relative;
 }
 
 .papertitle{
   font-weight: 600;
   font-size: 100;
-  position: relative;
-  top: -95px;
+  position: absolute;
+  top: -10px;
   left: 20px;
   font-family: Arial;
 }
@@ -166,8 +170,8 @@ hr{
   font-weight: 300;
   font-size: 100;
   color: #00000085;
-  position: relative;
-  top: -110px;
+  position: absolute;
+  top: 20px;
   left: 20px;
   font-family: Arial;
 }
@@ -175,8 +179,8 @@ hr{
 .thickpapertitle{
   font-weight: 600;
   font-size: 100;
-  position: relative;
-  top: -115px;
+  position: absolute;
+  top: -10px;
   left: 20px;
   font-family: Arial;
 }
@@ -185,8 +189,8 @@ hr{
   font-weight: 300;
   font-size: 100;
   color: #00000085;
-  position: relative;
-  top: -130px;
+  position: absolute;
+  top: 40px;
   left: 20px;
   font-family: Arial;
 }
@@ -195,7 +199,7 @@ hr{
   background-color: #50c878;
   border: none;
   width: 0.6%;
-  height: 80px;
+  height: 100%;
   margin-left: 0px;
   margin-top: 0px;
 }
@@ -204,25 +208,7 @@ hr{
   background-color: #00000030;
   border: none;
   width: 0.6%;
-  height: 80px;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-.thickyes{
-  background-color: #50c878;
-  border: none;
-  width: 0.6%;
-  height: 100px;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-.thickno{
-  background-color: #00000030;
-  border: none;
-  width: 0.6%;
-  height: 100px;
+  height: 100%;
   margin-left: 0px;
   margin-top: 0px;
 }
@@ -230,11 +216,11 @@ hr{
 .paperdir{
   background-color: #83899630;
   border: none;
-  width: 7%;
-  height: 80px;
-  position: relative;
-  top: -205px;
-  left: 1257px;
+  width: 6%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .paperdir:hover{
@@ -242,17 +228,17 @@ hr{
   font-weight: 600;
 }
 
-.thickpaperdir{
+.codedir{
   background-color: #83899630;
   border: none;
-  width: 7%;
-  height: 100px;
-  position: relative;
-  top: -249px;
-  left: 1257px;
+  width: 6%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 83px;
 }
 
-.thickpaperdir:hover{
+.codedir:hover{
   background-color: #83899670;
   font-weight: 600;
 }
