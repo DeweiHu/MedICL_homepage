@@ -13,18 +13,18 @@ nav{
 }
 
 
-ul{
+nav ul{
   margin-top: 85px;
   margin-left: 350px;
   padding: 0;
   list-style: none;
 }
 
-li{
+nav ul li{
   float: left;
 }
 
-li a{
+nav ul li a{
   width: 100px;
   display: block;
   padding: 20px 20px;
@@ -35,7 +35,7 @@ li a{
 
 
 /* Change the color of links on hover */
-li a:hover {
+nav ul li a:hover {
   color: #cfae70;
   font-weight: 1000;
 }
@@ -75,7 +75,9 @@ li i {
 
 .even-columns{
   display: flex;
+  margin-top: 30px;
 }
+
 
 .itembox{
   position: relative;
@@ -83,26 +85,27 @@ li i {
   height: 500px;
   margin-left: 3%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: #cfae7030;
+  background-color: #cfae7020;
 
 }
 
 .textbox{
   position: absolute;
-  top: 10%;
+  top: 11%;
   left: 5%;
-  width: 90%;
+  width: 88%;
   height: 300px;
 }
 
 .head{
   position: absolute;
-  left: 5%;
+  left: 3%;
   margin-top: 20px;
   font-family: georgia, serif;
+  color: #cfae70;
 }
 
-.icon-1{
+.icon{
   position: absolute;
   top: 76%;
   left: 85%;
@@ -111,8 +114,29 @@ li i {
 }
 
 
-
 .textbox span{
   font-weight: bold;
   font-family: helvetica, sans-serif;
+}
+
+.publist{
+  width: 80%;
+  margin-top: 15px;
+  margin-left: 30px;
+  list-stype: square;
+}
+
+.publist li{
+  font-size: 18px;
+  margin-left: -50px;
+  list-style-type: square;
+}
+
+.publist li a{
+  text-decoration: none;
+  color: #00000080;
+}
+
+.publist li a:hover{
+  color: #cfae70;
 }
