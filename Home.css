@@ -9,7 +9,7 @@ nav{
   width: 100%;
   height: 150px;
   overflow: auto;
-  background: #1c1c1c;
+  background: #000000;
 }
 
 
@@ -98,8 +98,8 @@ li i {
 }
 
 .panel2-wrapper {
-  width: 1000px;
-  height: 1000px;
+  width: 1200px;
+  height: 950px;
   overflow: hidden;
 }
 
@@ -178,6 +178,17 @@ li i {
     display: block;
 }
 
+.panel1-content a{
+  text-decoration: none;
+}
+
+.panel1-content a:hover{
+  text-decoration: underline;
+}
+
+.panel1-content span{
+  color: #cfae70;
+}
 
 .brain-mesh{
   position: relative;
@@ -461,12 +472,34 @@ li i {
   visibility: visible;
 }
 
-.synthetic{
+.transfer{
   position: absolute;
   height: 165px;
   width: 146px;
   top: -7px;
   left: 545px;
+}
+
+.transfer:hover{
+  transform: scale(1.2);
+}
+
+.transfer-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: -7px;
+  left: 225px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.transfer-project:hover .description{
+  visibility: visible;
 }
 
 .small1{
@@ -541,4 +574,12 @@ li i {
   width: 50px;
   top: 668px;
   left: 595px;
+}
+
+.copyright{
+  width: 100%;
+  height: 50px;
+  overflow: auto;
+  background: #cfae7025;
+  overflow: hidden;
 }

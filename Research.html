@@ -36,7 +36,7 @@
    <div class="even-columns">
    		<div class="itembox">
    			<h2 class="head">Semantic Segmentation</h2>
-	   		<div class="textbox">
+	   		<div class="textbox" id="SS">
 	   			<p>&nbsp;&nbsp;Segmentation is a very common task that helps the clinical practitioners with diagnosis and surgery. We focus on developing learning-based solutions for the segmentation of different tissue in diverse image modalities (i.e. MRI, CT, OCTA etc.). To address the lack of manual annotations for medical images, semi-supervised and unsupervised approaches are proposed.</p>
 	   			<span>Selected publications:</span>
 
@@ -50,10 +50,10 @@
 	   		<img class="icon" src="imgs/brain_mesh/segmentation.png"> 
    		</div>
 
-   		<div class="itembox">
+   		<div class="itembox" id="DGDA">
    			<h2 class="head">Domain Generalization & Adaptation</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;Deep learning algorithms are vulnerable to domain shift which severely impedes the broader deployment. Medical images are often distributed diversely even in the same modality. Therefore, we developed adaptation and generalization techniques to help the model work on out-of-distribution data from different sites or even modalities. The performance is usually evaluated by conducting a downstream task such as segmentation.</p>
+	   			<p>&nbsp;&nbsp;Deep learning algorithms are vulnerable to domain shift which severely impedes the broader deployment. Medical images are often distributed diversely even for data in the same modality. Therefore, we developed domain adaptation and generalization techniques to help the deep model work on out-of-distribution data from different sites or modalities. The performance is usually evaluated by conducting a downstream task such as segmentation.</p>
 	   			<span>Selected publications:</span>
 
 	   			<ul class="publist">
@@ -66,39 +66,55 @@
    </div>
 
    <div class="even-columns">
-   		<div class="itembox">
+   		<div class="itembox" id="CAD">
    			<h2 class="head">Computer-Aided Diagnosis</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;The brain MRI illustrates the textural and morphological change of tissue caused by pathologies. Analyzing brain MRI enables diagnosis or prediction of many diseases (e.g. Parkinson's disease) which makes it possible for early treatment and prevention. We developed patch-based analysis for accurate prediction and classification. Further, this approach is able to improve the deep learning algorithms.</p>
 	   			<span>Selected publications:</span>
+
+	   			<ul class="publist">
+				  	<li><a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.25331">Anatomical texture patterns identify cerebellar distinctions between essential tremor and Parkinson's disease</a></li>
+				  	<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841520302140?fr=RR-2&ref=pdf_download&rr=791c93fe6d03f7d4">Multi-scale graph-based grading for Alzheimer’s disease prediction</a></li>
+				  	<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8643359/">Patch-Based Abnormality Maps for Improved Deep Learning-Based Classification of Huntington’s Disease</a></li>
+				</ul>
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/diagnosis.png"> 
    		</div>
 
-   		<div class="itembox">
+   		<div class="itembox" id="SA">
    			<h2 class="head">Surface-based Analysis</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
 	   			<span>Selected publications:</span>
+
+	   			<ul class="publist">
+				  	<li><a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.25331">Anatomical texture patterns identify cerebellar distinctions between essential tremor and Parkinson's disease</a></li>
+				  	<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841520302140?fr=RR-2&ref=pdf_download&rr=791c93fe6d03f7d4">Multi-scale graph-based grading for Alzheimer’s disease prediction</a></li>
+				</ul>
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/atrophy.png"> 
    		</div>
    </div>
 
    <div class="even-columns">
-   		<div class="itembox">
+   		<div class="itembox" id="MA">
    			<h2 class="head">Multi-modality Approach</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
 	   			<span>Selected publications:</span>
+
+	   			<ul class="publist">
+				  	<li><a href="https://arxiv.org/pdf/2203.04959.pdf">ModDrop++: A Dynamic Filter Network with Intra-subject Co-training for Multiple Sclerosis Lesion Segmentation with Missing Modalities</a></li>
+				</ul>
+
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/multimod.png"> 
    		</div>
 
-   		<div class="itembox">
+   		<div class="itembox" id="IS">
    			<h2 class="head">Image Stitching</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
 	   			<span>Selected publications:</span>
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/bighexagon.svg"> 
@@ -106,39 +122,50 @@
    </div>
 
    <div class="even-columns">
-   		<div class="itembox">
+   		<div class="itembox" id="ID">
    			<h2 class="head">Image Denoising</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;Due to the imaging technique, some medical image modalities (e.g. OCT, ultrasound) suffer from high noise that can severely degrade the visibility of some important anatomy. Therefore, image denoising is an essential pre-processing step for either diagnosis or other downstream task like segmentation. Since it is impossible to get the noise-free ground truth, the unsupervised learning methods are favorable for this problem. We proposed to implement the deep diffusion model that can reduce the speckle noise of different level in retinal OCT images.</p>
 	   			<span>Selected publications:</span>
+
+	   			<ul class="publist">
+				  	<li><a href="https://arxiv.org/pdf/2201.11760.pdf">Unsupervised denoising of retinal OCT with diffusion probabilistic model</a></li>
+				  	<li><a href="https://arxiv.org/pdf/2107.04288.pdf">Retinal OCT Denoising with Pseudo-Multimodal Fusion Network</a></li>
+				</ul>
+
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/denoise.gif"> 
    		</div>
 
-   		<div class="itembox">
+   		<div class="itembox" id="LI">
    			<h2 class="head">Lesion Inpainting</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
 	   			<span>Selected publications:</span>
+
+	   			<ul class="publist">
+				  	<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8692168/">Robust Multiple Sclerosis Lesion Inpainting with Edge Prior</a></li>
+				</ul>
+
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/inpaint.gif"> 
    		</div>
    </div>
 
    <div class="even-columns">
-   		<div class="itembox">
+   		<div class="itembox" id="Harmo">
    			<h2 class="head">Harmonization</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
 	   			<span>Selected publications:</span>
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/bighexagon.svg"> 
    		</div>
 
-   		<div class="itembox">
+   		<div class="itembox" id="ST">
    			<h2 class="head">Style Transfer</h2>
 	   		<div class="textbox">
-	   			<p>&nbsp;&nbsp;</p>
+	   			<p>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
 	   			<span>Selected publications:</span>
 	   		</div>
 	   		<img class="icon" src="imgs/brain_mesh/styletransfer.gif"> 

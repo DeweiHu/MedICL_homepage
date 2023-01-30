@@ -129,6 +129,7 @@ li i {
 .publist li{
   font-size: 18px;
   margin-left: -50px;
+  margin-bottom: 4px;
   list-style-type: square;
 }
 
