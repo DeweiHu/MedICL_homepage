@@ -153,7 +153,7 @@ hr{
   font-weight: 600;
   font-size: 100;
   position: absolute;
-  top: -10px;
+  top: -17px;
   left: 20px;
   font-family: Arial;
 }
@@ -164,15 +164,6 @@ hr{
   color: #00000085;
   position: absolute;
   top: 20px;
-  left: 20px;
-  font-family: Arial;
-}
-
-.thickpapertitle{
-  font-weight: 600;
-  font-size: 100;
-  position: absolute;
-  top: -10px;
   left: 20px;
   font-family: Arial;
 }
