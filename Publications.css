@@ -104,14 +104,6 @@ li i {
   left: 310px;
 }
 
-.year{
-  font-weight: 700;
-  font-size: 200;
-  margin-top: 30px;
-  margin-left: 80px;
-  margin-bottom: 0px;
-  font-family: Arial;
-}
 
 hr{
   width: 90%;
@@ -241,4 +233,50 @@ hr{
 .codedir:hover{
   background-color: #83899670;
   font-weight: 600;
+}
+
+.collapsible label:after{
+  content: "\f078";
+  position: absolute;
+  font-family: 'FontAwesome';
+  left: 75px;
+  top: 7px;
+  width: 18px;
+  height: 18px;
+  transition: all 0.3s ease;
+}
+
+
+.collapsible label{
+  margin-left: 5%;
+  position: relative;
+  font-weight: 800;
+  font-size: 300;
+  font-family: Arial;
+  background: #ededed;
+  display: block;
+  cursor: pointer;
+}
+
+.collapsible-content{
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  top: -100%;
+  transition: all 0.3s ease;
+}
+
+.collapsible input:checked ~ .collapsible-content{
+  max-height: 5000px;
+  padding-bottom: 25px;
+  background: #ededed;
+}
+
+.collapsible input:checked + label:after{
+  transform: rotate(180deg);
+}
+
+.collapsible input{
+  display: none;
 }
