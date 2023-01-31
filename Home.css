@@ -434,12 +434,56 @@ li i {
   left: 760px;
 }
 
+.stitch:hover{
+  transform: scale(1.2);
+}
+
+.stitch-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: 175px;
+  left: 440px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.stitch-project:hover .description{
+  visibility: visible;
+}
+
 .harmonize{
   position: absolute;
   height: 165px;
   width: 146px;
   top: 52px;
   left: 76px;
+}
+
+.harmonize:hover{
+  transform: scale(1.2);
+}
+
+.harmonize-project .description{
+  visibility: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #00000095;
+  color: white;
+  font-family: optima, sans-serif;
+  position: absolute;
+  top: 52px;
+  left: 241px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.harmonize-project:hover .description{
+  visibility: visible;
 }
 
 .multimodality{
