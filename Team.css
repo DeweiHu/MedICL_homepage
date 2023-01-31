@@ -108,6 +108,7 @@ hr{
 }
 
 .ID{
+  display: flex;
   position: absolute;
   width: 35%;
   height: 100%;
@@ -118,7 +119,7 @@ hr{
 .portrait{
   position: absolute;
   height: 70%;
-  margin-top: 12%;
+  margin-top: 10%;
   margin-left: 8%;
 }
 
@@ -128,8 +129,7 @@ hr{
   font-size: 800;
   font-family: trebuchet ms;
   color: #000;
-  bottom: -8px;
-  left: 25%;
+  bottom: -4px;
 }
 
 .info{
